@@ -13,22 +13,22 @@ Additional features such as shipping options and discount codes proved problemat
 
 ## Usage
 - When you open *landing.html* you will land on the homepage of the website.
-/readmeImages/Screenshot_01.png
+![Screenshot of homepage](/readmeImages/Screenshot_01.png)
 
 - You can then navigate to the *Shop* page, where you can add the products to the cart.
-/readmeImages/Screenshot_02.png
+![Screenshot of shop page](/readmeImages/Screenshot_02.png)
 
 - When a product is added to the cart, and alert notifies the user of their total.
-/readmeImages/Screenshot_03.png
+![Screenshot of alert](/readmeImages/Screenshot_03.png)
 
 - Once you're in the cart, you can see what products have been added and what the total is.
-/readmeImages/Screenshot_04.png
+![Screenshot of cart](/readmeImages/Screenshot_04.png)
 
 - You can remove products from the cart.
-/readmeImages/Screenshot_05.png
+![Screenshot of products removed from cart](/readmeImages/Screenshot_05.png)
 
 - When you checkout, a reference number is generated and presented.
-/readmeImages/Screenshot_06.png
+![Screenshot of checkout](/readmeImages/Screenshot_06.png)
 
 ## Credits
 This project would not have been possible without the JavaScript Shopping Cart Tutorials by Telmo Sampaio. The videos were very easy to follow, and he explained everything in a way that made sense. You actually learn something instead of just following along. 
