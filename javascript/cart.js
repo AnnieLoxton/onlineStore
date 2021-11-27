@@ -153,9 +153,7 @@ function displayCart(){
             </div>
             <div class="price pSmallDark">R${item.price}.00</div>
             <div class="quantity">
-                <ion-icon class="decrease" name="remove-circle-outline"></ion-icon>
                 <span class="pSmallDark">${item.inCart}</span>
-                <ion-icon class="increase" name="add-circle-outline"></ion-icon>
             </div>
             <div class="total pSmallDark">
                 R${item.inCart * item.price}.00
