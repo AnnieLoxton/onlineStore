@@ -1,0 +1,3 @@
+Hi!
+
+I managed to fix the error, but am still having trouble with the cart total displaying correctly until the shipping and discount have been applied.

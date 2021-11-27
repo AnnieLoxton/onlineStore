@@ -1,0 +1,918 @@
+/* ----------------------- Font Styles ----------------------- */
+
+.h1Light{
+    font-family: "Nanum Myeongjo";
+    font-size: 76.3px;
+    font-weight: bold;
+    color: white;
+    line-height: 110%;
+}
+
+.h1Dark{
+    font-family: "Nanum Myeongjo";
+    font-size: 76.3px;
+    font-weight: bold;
+    color: #6B675B;
+    line-height: 110%;
+}
+
+.h2Dark{
+    font-family: "Nanum Myeongjo";
+    font-size: 61.04px;
+    font-weight: bold;
+    color: #6B675B;
+    line-height: 100%;
+}
+
+.h3Dark{
+    font-family: "Nanum Myeongjo";
+    font-size: 48.83px;
+    font-weight: bold;
+    color: #6B675B;
+    line-height: 110%;
+}
+
+.h4Light{
+    font-family: "Nanum Myeongjo";
+    font-size: 39.06px;
+    font-weight: bold;
+    color: white;
+    line-height: 120%;
+}
+
+.h4Dark{
+    font-family: "Nanum Myeongjo";
+    font-size: 39.06px;
+    font-weight: bold;
+    color: #6B675B;
+    line-height: 120%;
+}
+
+.h5Dark{
+    font-family: "Nanum Myeongjo";
+    font-size: 25px;
+    font-weight: bold;
+    color: #6B675B;
+    line-height: 130%;
+}
+
+.h6Dark{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    color: #6B675B;
+    line-height: 140%;
+}
+
+.captionDark{
+    font-family: "Open Sans";
+    font-size: 12.8px;
+    line-height: 140%;
+    /* Set colour manually */
+}
+
+.overlineDark{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.pSmallDark{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 140%;
+    color: #9E988C;
+}
+
+.pSmallLight{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+}
+
+.pLargeDark{
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 140%;
+    color: #6B675B;
+}
+
+/* ----------------------- Body ----------------------- */
+
+body{
+    margin: 0;
+}
+
+/* ----------------------- Navigation ----------------------- */
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 4px 40px rgba(0,0,0,0.08);
+}
+
+.navWrap{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    height: 88px;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 98px;
+    height: auto;
+    margin-right: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.navBar a{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 88px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #6B675B;
+    font-weight: normal;
+}
+
+.navBar a:hover{
+    color: #9E988C;
+}
+
+a.active{
+    font-weight: bold;
+    color: #9E988C;
+}
+
+.navLink{
+    padding: 0;
+    margin-right: 48px;
+}
+
+.navIcon a{
+    margin-top: 6px;
+    padding: 0;
+    margin-left: 24px;
+}
+
+.navIcon span{
+    padding-left: 4px;
+}
+
+.dropdown{
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdownContent{
+    display: none;
+    position: relative;
+    left: 480px;
+    background-color: #F1EFE5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0 24px;
+}
+
+.show{
+    display: block;
+}
+
+/* ----------------------- Buttons ----------------------- */
+
+.btn{
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4F4939;
+    font-family: "Open Sans";
+    font-weight: "600";
+    font-size: 16px;
+    height: 56px;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 48px;
+}
+
+.btn:hover{
+    box-shadow: inset 0 0 0 2px #FFFFFF;
+    background-color: transparent;
+}
+
+.btnLight{
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4F4939;
+    font-family: "Open Sans";
+    font-weight: "600";
+    font-size: 16px;
+    height: 56px;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 48px;
+}
+
+.btnLight:hover{
+    box-shadow: inset 0 0 0 2px #4F4939;
+    background-color: transparent;
+    color: #4F4939;
+}
+
+.formInline button{
+    padding: 14px 24px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4F4939;
+    font-family: "Open Sans";
+    font-weight: "600";
+    font-size: 16px;
+    color: white;
+}
+
+.formInline button:hover{
+    padding: 14px 24px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 2px #4F4939;
+    background-color: transparent;
+    font-family: "Open Sans";
+    font-weight: "600";
+    font-size: 16px;
+    color:  #4F4939;
+}
+
+.cartBtn{
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4F4939;
+    font-family: "Open Sans";
+    font-weight: "600";
+    font-size: 16px;
+    height: 56px;
+    color: white;
+    text-align: center;
+    width: 281px;
+    margin: 0;
+}
+
+.cartBtn:hover{
+    box-shadow: inset 0 0 0 2px #4F4939;
+    background-color: transparent;
+    color: #4F4939;
+}
+
+.buyBtn{
+    box-shadow: inset 0 0 0 2px #4F4939;
+    background-color: transparent;
+    color: #4F4939;
+    border-radius: 4px;
+    border-style: none;
+    font-family: "Open Sans";
+    font-weight: "600";
+    font-size: 16px;
+    height: 56px;
+    text-align: center;
+    width: 281px;
+    margin: 0;
+}
+
+.buyBtn:hover{
+    background-color: #4F4939;
+    color: white;
+}
+
+.submitBtn{
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4F4939;
+    font-family: "Open Sans";
+    font-weight: "600";
+    font-size: 16px;
+    height: 56px;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 24px;
+}
+
+.submitBtn:hover{
+    box-shadow: inset 0 0 0 2px #4F4939;
+    background-color: transparent;
+    color: #4F4939;
+}
+
+/* ----------------------- Header ----------------------- */
+
+.headerContainer{
+    position: relative;
+    text-align: center;
+}
+
+.headerContainer img{
+    filter: grayscale(40%);
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ----------------------- Homepage Elements ----------------------- */
+
+.blockContainer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #FAF9F5;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+
+.sectionImg{
+    display: block;
+    width: 454px;
+    height: 454px;
+    border: 5px solid #9E988C;
+    float: left;
+    margin-right: 12px;
+}
+
+.sectionDiv{
+    display: block;
+    width: 464px;
+    height: 464px;
+    background-color: #9E988C;
+    text-align: center;
+    margin-left: 12px;
+    
+}
+
+.sectionDiv p{
+    max-width: 360px;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+}
+
+.sectionDiv h4{
+    margin-top: 104px;
+    margin-bottom: 8px;
+}
+
+.ctaContainer{
+    width: 100%;
+    margin: auto;
+    background-color: #FAF9F5;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.ctaContainer h2{
+    margin-top: 32px;
+    max-width: 574px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 0;
+}
+
+.ctaContainer .button{
+    margin-top: 48px;
+}
+
+.blockStyle{
+    border: 5px solid #6B675B;
+    background-color: transparent;
+    width: 464px;
+    height: 464px;
+    text-align: center;
+}
+
+.blockStyle h4{
+    margin-top: 142px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 392px;
+}
+
+.blockStyle .btnLight{
+    margin-top: 32px;
+}
+
+/* ----------------------- Shop Page ----------------------- */
+
+.shopContainer{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.cardRow{
+    column-count: 4;
+    column-gap: 24px;
+}
+
+.card h5{
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card p{
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.imgHover img{
+    height: 456px;
+    width: 342px;
+}
+
+.card{
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover .cartOne,
+.card:hover .cartTwo,
+.card:hover .cartThree,
+.card:hover .cartFour,
+.card:hover .cartFive,
+.card:hover .cartSix,
+.card:hover .cartSeven,
+.card:hover .cartEight{
+    bottom: 80px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.addCart{
+   position: absolute;
+   width: 100%;
+   background-color: #4F4939;
+   transition: inherit;
+   font-family: "Open Sans";
+   font-weight: "600";
+   color: white;
+   opacity: 0;
+   text-align: center;
+}
+
+.testimonial{
+    background-color: #FAF9F5;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    animation-name: bgAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bgAnimation{
+    0% {background-color: #FAF9F5;}
+    25%{background-color: #F1EFE5;}
+    50%{background-color: #E0DCCB;}
+    75%{background-color: #D3CFBD;}
+    100% {background-color: #FAF9F5;}
+}
+
+.testimonial p{
+    margin: 0;
+}
+
+.testimonial h3{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 26px;
+    margin-bottom: 29px;
+}
+
+/* ----------------------- Product Info Page ----------------------- */
+#productImage{
+    border: 1px solid #6B675B;
+}
+
+
+.infoContainer{
+    max-width: 1196px;
+    margin: auto;
+    margin-top: 106px;
+    margin-bottom: 80px;
+    column-count: 2;
+    column-gap: 24px;
+}
+
+.infoText h3{
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.infoText .pLargeDark{
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.infoText .captionDark{
+    margin-top: 0;
+    margin-bottom: 52px;
+}
+
+.rightCol .descriptionP{
+    margin-top: 58px;
+    margin-bottom: 35px;
+}
+
+.descriptionText ul{
+    padding-left: 20px;
+}
+
+.socialLinks{
+    display: flex;
+}
+
+.socialLinks a{
+    text-decoration: none;
+    display: flex;
+}
+
+.features{
+    color: #9E988C;
+}
+
+.features:hover{
+    cursor: pointer;
+    color: #4F4939;
+}
+
+
+/* ----------------------- Shipping Details ----------------------- */
+
+.shippingContainer{
+    max-width: 952px;
+    margin: auto;
+}
+
+/* Radio button styling instructions found here: https://codepen.io/manabox/pen/raQmpL */
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9E988C;
+    border-radius: 100%;
+    background: transparent;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #9E988C;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+   
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.shippingTable{
+    width: 100%;
+    margin-top: 48px;
+    border-collapse: collapse;
+}
+
+.shippingTable, th, td{
+    border: 1px solid #9E988C;
+}
+
+.shippingTable h6{
+    margin: 0;
+    margin-left: 24px;
+    line-height: 72px;
+}
+
+.shippingTable p{
+    margin: 0;
+    margin-left: 24px;
+    line-height: 64px;
+}
+
+/* ----------------------- Contact Us ----------------------- */
+
+.contactContainer{
+    max-width: 464px;
+    margin: auto;
+}
+
+.contactForm{
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.contactForm input[type=text],[type=email], select, textarea {
+    width: 100%;
+    padding: 17px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #6B675B;
+    box-sizing: border-box;
+}
+
+.contactForm ::placeholder{
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #A8A59E;
+}
+
+select{
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #A8A59E;
+}
+
+.contactForm label{
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #6B675B;
+}
+
+.formRow{
+    margin-top: 16px;
+}
+
+/* ----------------------- Cart Page ----------------------- */
+.productContainer{
+    max-width: 850px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.productContainer ion-icon{
+    font-size: 25px;
+    color: #4F4939;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.productHeader{
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #9E988C; /*!!!!!update colour*/
+    margin: 0 auto;
+}
+
+.productTitle{
+    width: 45%;
+}
+
+.price{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 75px;
+    margin-right: 16px;
+}
+
+.cartTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /* border-top: 2px solid #9E988C; */
+    border-bottom: 2px solid #9E988C;
+    margin-bottom: 24px;
+}
+
+.cartTotalTitle{
+    width: 90%;
+}
+
+.cartSubtotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-bottom: 2px solid #9E988C;
+}
+
+.cartSubtotalTitle{
+    width: 90%;
+}
+
+.cartVatContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.cartVatTitle{
+    width: 100%;
+}
+
+.discountContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 24px;
+
+}
+
+.discountForm input[type=text]{
+    width: 100%;
+    padding: 17px 16px;
+    border: 2px solid #6B675B;
+    box-sizing: border-box;
+    height: 56px;
+    margin-top: 24px;
+    margin-right: 16px;
+}
+
+.discountForm{
+    display: inline-flex;
+    align-items: center;
+}
+
+.shippingOptionsContainer{
+    width: 100%;
+    border-bottom: 2px solid #9E988C;
+    padding-bottom: 48px;
+}
+
+.chooseShippingMethod select{
+    padding: 17px 16px;
+    border: 2px solid #6B675B;
+    box-sizing: border-box;
+    height: 56px;
+}
+
+#shippingSelect{
+    display: none;
+}
+
+#collectText{
+    display: none;
+}
+
+input[value="collectText"]:checked ~ #collectText{
+    display: block;
+    text-align: center;
+}
+
+input[value="shippingSelect"]:checked ~ #shippingSelect{
+    display: block;
+}
+
+.order{
+    margin-bottom: 80px;
+}
+
+/* ----------------------- Footer ----------------------- */
+
+footer{
+    width: 100%;
+    background-color: #9E988C;
+}
+
+.footerWrap{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+}
+
+footer .footerLinks{
+    display: inline-block;
+    line-height: 296px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color:white;
+    font-weight: normal;
+    margin-right: 80px;
+}
+
+footer a:hover{
+    color: #6B675B;
+}
+
+.formInline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.formInline input{
+    padding: 16px;
+    background-color: transparent;
+    margin-right: 24px;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 366px;
+    vertical-align: middle;
+}
+
+.formInline ::placeholder{
+    color: #6D675B;
+    font-size: 16px;
+    font-family: "Open Sans";
+}
+
+hr{
+    height: 1px;
+    background-color: #756C59;
+    border: none;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footerIcon{
+    margin-right: 16px;
+}
+
+.lowerFooterWrap{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+}
+
+footer p{
+    margin-top: 0;
+}

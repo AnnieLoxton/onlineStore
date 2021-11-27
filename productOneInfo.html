@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dining Chair</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script type='text/javascript' src="javascript/dropdownMenu.js"></script>
+        <script type='text/javascript' src="javascript/jqueryProductInfoPage.js"></script>
+    </head>
+
+    <body style="background-color: #FAFAFA;" class="productInfoPage">
+        <!-- Navigation -->
+        <nav class="navBar">
+            <div class="navWrap">
+                <div class="navLink">
+                    <a href="landing.html"><img class="logo" src="images/Logo.png" alt="Logo"></a>
+                    <a href="shop.html" class="navLink">Shop</a>
+                    <a href="shipping.html" class="navLink">Shipping</a>
+                    <a href="contact.html" class="navLink">Contact Us</a>
+                    <a href="#" onclick="dropdownMenu()" class="navLink dropBtn">More</a>
+                    <div id="myDropdown" class="dropdownContent">
+                        <a href="#">About Us</a><br>
+                        <a href="#">Frequently Asked Questions</a><br>
+                        <a href="#">Corporate</a>
+                    </div>
+                </div>
+                <div class="navIcon">
+                    <a href="#"><img src="images/iconSearch.svg" alt="Search icon"></a>
+                    <a href="#"><img src="images/iconUser.svg" alt="User icon"></a>
+                    <a href="cart.html"><img src="images/iconCart.svg" alt="Cart icon"><span>0</span></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Product Info -->
+        <div class="infoContainer">
+
+            <!-- Left Column -->
+            <div>
+                <img src="images/pdp1.png" alt="Dining Chair" id="productImage">
+            </div>
+
+            <!-- Right Column -->
+            <div class="rightCol">
+                <div class="infoText">
+                    <h3 class="h3Dark">Dining Chair</h3>
+                    <p class="pLargeDark">R 1200.00</p>
+                    <p class="captionDark" style="color: #A8A59E;">Tax included</p>
+                </div>
+                <div class="productInfoButtons" style="margin-bottom: 64px;">
+                    <button class="cartBtn toCart" style="margin-right: 12px;">Add to Cart</button>
+                </div>
+                <hr>
+                <div class="descriptionText">
+                    <p class="pSmallDark descriptionP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus suspendisse magnis hendrerit tincidunt est urna interdum dolor id. Malesuada senectus amet, tincidunt scelerisque. Vel vulputate tristique sapien senectus habitasse elit volutpat. Sed commodo tristique sed magnis senectus tristique nunc nulla ut. Bibendum egestas lorem nunc pharetra blandit magna dolor enim.</p>
+                    <p class="overlineDark features" id="toggle">FEATURES</p>
+                    <div class="featuresList" id="hide">
+                        <ul>
+                            <li class="pSmallDark">Lorem Ipsum</li>
+                            <li class="pSmallDark">Lorem Ipsum</li>
+                            <li class="pSmallDark">Lorem Ipsum</li>
+                            <li class="pSmallDark">Lorem Ipsum</li>
+                            <li class="pSmallDark">Lorem Ipsum</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="socialLinks">
+                    <div style="margin-right: 24px;">
+                        <a href="#">
+                            <img src="images/iconFacebookDark.svg" style="margin-right: 8px;" alt="Facebook icon">
+                            <p class="overlineDark" style="color: #9E988C;">SHARE</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <img src="images/iconTwitterDark.svg" style="margin-right: 8px;" alt="Twitter icon">
+                            <p class="overlineDark" style="color: #9E988C;">TWEET</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial -->
+        <div class="testimonial">
+            <p class="overlineDark" style="color: #9E988C;">TESTIMONIAL</p>
+            <h3 class="h3Dark">"I keep coming back for more. <br> The products look great in my home."</h3>
+            <p class="captionDark" style="color: #6B675B;">- Sarah, Cape Town</p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footerWrap">
+                <div>
+                    <a href="shipping.html" class="footerLinks">Shipping</a>
+                    <a href="contact.html" class="footerLinks">Contact Us</a>
+                    <a href="#" class="footerLinks">Privacy Policy</a>
+                </div>
+                
+                <div class="footerSubscribe">
+                    <form class="formInline">
+                        <input class="footerInput" type="email" placeholder="Enter Your Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="lowerFooterWrap">
+                <div class="footerIcons">
+                    <a href="https://www.facebook.com/" target="blank" class="footerIcon"><img src="images/iconFacebook.svg" alt="Facebook icon"></a>
+                    <a href="https://www.instagram.com/" target="blank" class="footerIcon"><img src="images/iconInsta.svg" alt="Instagram icon"></a>
+                </div>
+                <div>
+                    <p class="captionDark" style="color: #FAF9F5">©2021, Luxe Homeware</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Own Javascript -->
+        <script src="javascript/cart.js"></script>
+
+    </body>
+</html>
